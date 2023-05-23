@@ -22,7 +22,7 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
         name: apk
-        path: app/build/outputs/apk
+        path: app/build/
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
